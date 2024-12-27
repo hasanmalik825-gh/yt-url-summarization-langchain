@@ -1,0 +1,9 @@
+fastapi
+langchain_groq
+langchain_core
+langchain
+uvicorn
+youtube-transcript-api
+pytube
+unstructured
+asyncio
