@@ -1,9 +1,16 @@
-fastapi
-langchain_groq
-langchain_core
-langchain
-uvicorn
-youtube-transcript-api
-pytube
-unstructured
-asyncio
+# python=3.11
+transformers==4.51.3
+fastapi==0.115.11
+langchain-core==0.3.54
+langchain==0.3.23
+langchain-community==0.3.21
+langchain-groq==0.3.2
+langchain-openai==0.3.14
+uvicorn==0.34.0
+youtube-transcript-api==1.0.3
+pytube==15.0.0
+unstructured==0.17.2
+asyncio==3.4.3
+streamlit==1.44.1
+openai==1.72.0
+dotenv==0.9.9

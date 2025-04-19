@@ -1,4 +1,4 @@
-from constants import IP_WHITELIST
+from app.config import IP_WHITELIST
 from fastapi import Request, HTTPException, status
 
 async def add_middleware(request: Request, call_next):

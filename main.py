@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 import uvicorn
-from routes import index_router, summarization_router
-from middleware.middleware import add_middleware
+from app.routes import index_router, summarization_router
+from app.middleware.middleware import add_middleware
 
 app = FastAPI()
 
@@ -10,4 +10,4 @@ app.include_router(index_router)
 app.include_router(summarization_router)
 
 if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    uvicorn.run(app, host="0.0.0.0", port=8001)
